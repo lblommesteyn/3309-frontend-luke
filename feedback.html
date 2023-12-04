@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <nav>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="dream_input.html">Dream Input</a></li>
+            <li><a href="dream_output.html">Past Dreams</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+<head>
+    <title>Feedback</title>
+    <!-- Add relevant CSS and JS files -->
+</head>
+<body>
+    <div id="feedbackInput">
+        <form action="/submitFeedback" method="post">
+            <textarea name="feedbackDescription" placeholder="Your feedback..."></textarea>
+            <input type="number" name="feedbackRating" min="1" max="5" placeholder="Rating (1-5)">
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
